@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-size: 100%;
+    font-family: sans-serif;
+}
+
+div, section, span, ul, li, a, header{
+    box-sizing: border-box;
+}
+
+/*css reset*/
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+    position: fixed;
+    z-index: 999;
+}
+
+#menu li{
+    list-style: none;
+    display: inline-block;
+    margin: 20px;
+}
+
+#menu li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+section{
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
+
+#Home{
+   background-color: #59405C;
+}
+
+#About{
+     background-color: #ED6663;
+}
+
+#Skill{
+     background-color: #B52B65;
+}
+
+#Project{
+     background-color: #3C2C3E;
+}
+
+#Contact{
+     background-color:blueviolet
+}
+#Calculator{
+    background-color: #ED6663;
+}
+.cal{
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+}
+h2{
+    position: absolute;
+    top: 55%; 
+    left: 50%;
+    transform: translate(-55%, -50%);
+    color: black;
+}
+.img1{
+    position: absolute;
+    border-radius: 50%;
+    top: 40%;
+    left: 60%;}
+
+  .calculator {
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+        text-align: center;
+        padding: 60px;
+        background-color:grey;
+        margin: 20%;
+        width: 25%;
+        float: center;
+    }
+    .container{
+        background: lightGrey;
+        width: max-content;
+        margin: 15%;
+    }
+    .display{
+    width: 100%;
+    background-color: darkGrey;
+    height: 50px;
+    font-size: 48px;
+    display: flex;
+    justify-content: flex-end;
+      }
+      .buttons{
+        max-width: 400px;
+        display:flex;
+        flex-wrap: wrap;
+    }
+    button{
+        flex: 1 25%;
+        padding: 15px;
+        font-size: 26px;
+      } 
+      .btn-number {
+        background-color:grey;
+      }
+      
+      .btn-operator {
+        background-color:orange;
+      }
+      
+      .btn-equals {
+        background-color:green;
+      }
+      
+      .btn-clear {
+         background-color:crimson;
+      }
+    
